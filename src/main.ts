@@ -14,11 +14,6 @@ async function main() {
   const buffer = file.arrayBuffer()
   console.log(buffer)
   const uploader = new Uploader({
-    headers: {
-      appid: "68ed4a853ffa55a2b554aafa860fdb47c2a92100",
-      token: "24e8b969a0a43bb051f28375bfa8cdf12927bca5",
-    },
-    url: 'https://oss-platform.fenqile.com/upload?type=file&scenes=platform_resource&output_type=json&plusflag=1',
     dataType: 'json',
     method: 'POST',
   }); // Initialize the uploader with options
